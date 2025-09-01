@@ -1,7 +1,6 @@
-"""
-RA-UNet snippets (selected fragments only).
-Full attention gating, residual pathways, and training code withheld.
-"""
+#RA-UNet snippets (selected fragments only).
+#Full attention gating, residual pathways, and training code withheld.
+
 
 from tensorflow.keras.layers import Conv2D, Conv2DTranspose, Add, BatchNormalization, Activation, MaxPooling2D, Concatenate, Input, Multiply
 from tensorflow.keras import Model
