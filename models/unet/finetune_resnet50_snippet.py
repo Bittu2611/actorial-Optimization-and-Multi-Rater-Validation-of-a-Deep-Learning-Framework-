@@ -1,8 +1,7 @@
-"""
-U-Net (ResNet-50 encoder) – fine-tuning snippet
-Full decoder wiring, loss/metrics, and callbacks are withheld.
-Contact: abhishek-jha@uiowa.edu
-"""
+#U-Net (ResNet-50 encoder) – fine-tuning snippet
+#Full decoder wiring, loss/metrics, and callbacks are withheld.
+#Contact: abhishekjha2611@gmail.com
+
 
 import tensorflow as tf
 from tensorflow.keras.applications import ResNet50
@@ -17,9 +16,9 @@ def _encoder_resnet50(input_size=(256, 256, 3)):
     feats = {
         "c1": base.get_layer("conv1_relu").output,          # 128×128
         "c2": base.get_layer("conv2_block3_out").output,    # 64×64
-        "----------------------------------------------,    # 32×32
-        "----------------------------------------------,    # 16×16
-        "--------------------------------------------    # 8×8
+        "c3": base.get_layer("conv3_block4_out").output,    # 32×32
+        "c4": base.get_layer("conv4_block6_out").output,    # 16×16
+        "c5": base.get_layer("conv5_block3_out").output,    # 8×8
     }
     return base.input, feats
 
