@@ -1,7 +1,5 @@
-"""
-U-Net snippets (selected fragments only).
-Full training and data pipeline withheld; available upon request.
-"""
+#U-Net snippets (selected fragments only).
+#Full training and data pipeline withheld; available upon request.
 
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Conv2DTranspose, Concatenate, BatchNormalization, Dropout, Input
 from tensorflow.keras import Model
