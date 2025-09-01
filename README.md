@@ -20,8 +20,6 @@ Public Snippets Only. This repository intentionally publishes selected fragments
   Config: `configs/raunet_snippet.yaml`
 
 ## Fine-tuning (Snippet-Only)
-This repository includes **snippet-only** fine-tuning interfaces:
-
 - U-Net (ResNet-50 encoder): `models/unet/finetune_resnet50_snippet.py`  
   Runner: `src/finetune_unet_resnet50_snippet.py`  
   Config: `configs/unet_resnet50_finetune.yaml`
