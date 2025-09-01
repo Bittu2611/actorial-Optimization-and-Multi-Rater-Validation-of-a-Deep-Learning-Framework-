@@ -1,9 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it."
 title: "A Three-Phase Deep Learning Framework for Automated Infarct Segmentation in Preclinical Stroke Imaging"
-authors:
-  - family-names: Jha
-    given-names: Abhishek B.
+authors: Abhishek B.Jha, Ivan Budnik, Mariia Kumskova, Tarun Barbhuyan, Rakesh Patel and Anil Chauhan
 version: 1.0
 date-released: 2025-08-09
 repository-code: "https://github.com/Bittu2611/three-phase-infarct-segmentation"
