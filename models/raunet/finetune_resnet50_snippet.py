@@ -1,8 +1,7 @@
-"""
-RA-UNet (ResNet-50 encoder) – fine-tuning snippet
-Residual attention blocks, gating, decoder wiring, and full training stack withheld.
-Contact: abhishek-jha@uiowa.edu
-"""
+#RA-UNet (ResNet-50 encoder) – fine-tuning snippet
+#Residual attention blocks, gating, decoder wiring, and full training stack withheld.
+#Contact: abhishekjha2611@gmail.com
+
 
 import tensorflow as tf
 from tensorflow.keras.applications import ResNet50
@@ -15,9 +14,9 @@ def _encoder_resnet50(input_size=(256, 256, 3)):
     feats = {
         "c1": base.get_layer("conv1_relu").output,
         "c2": base.get_layer("conv2_block3_out").output,
-        "............................................,
-        "---------------------------------------------,
-        "---------------------------------------------,
+        "c3": base.get_layer("conv3_block4_out").output,
+        "c4": base.get_layer("conv4_block6_out").output,
+        "c5": base.get_layer("conv5_block3_out").output,
     }
     return base.input, feats
 
