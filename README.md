@@ -3,7 +3,6 @@
 Public Snippets Only. This repository intentionally publishes selected fragments (model skeletons and minimal training interfaces) for U-Net, Deep U-Net, RA-UNet, and ResNet-50–based fine-tuning  to support peer review and reproducibility claims.  
 
 ### Models Covered (snippet-only)
-- Deep U-Net
 - U-Net – deeper encoder/decoder scaffold (dropouts, BN, skip wiring withheld)
 - RA-UNet– residual attention gate interfaces (attention/gating internals withheld)
 - U-Net (ResNet-50 encoder) – fine-tuning interface (decoder & training loop withheld)
@@ -29,7 +28,7 @@ Public Snippets Only. This repository intentionally publishes selected fragments
   Config: `configs/raunet_resnet50_finetune.yaml`
 
 # Full Factorial design of experiment based model development (Phase -II)
--Deep U-Net (5-level / 9-layer, Full-Factorial DOE)
+Deep U-Net (5-level / 9-layer, Full-Factorial DOE)
 - Model file: `models/unet/deep_unet_snippet.py`  
 - Runner: `src/train_deep_unet_snippet.py`  
 - Config:`configs/deep_unet_snippet.yaml`  
