@@ -31,6 +31,11 @@ Public Snippets Only. This repository intentionally publishes selected fragments
 Deep U-Net (5-level / 9-layer, Full-Factorial DOE)
 - Model file: `models/unet/deep_unet_snippet.py`  
 - Runner: `src/train_deep_unet_snippet.py`  
-- Config:`configs/deep_unet_snippet.yaml`  
+- Config:`configs/deep_unet_snippet.yaml`
+
+
+# Software demo
+https://raw.githubusercontent.com/Bittu2611/three-phase-infarct-segmentation/main/media/streamlit-MRI-2025-09-05-20-09-11.mp4
+
 
 Note: Full implementations (data pipeline, complete training loops, augmentation policy, metrics, callbacks incl. ECE, and evaluation) are withheld and available upon request under the Custom Research License.
