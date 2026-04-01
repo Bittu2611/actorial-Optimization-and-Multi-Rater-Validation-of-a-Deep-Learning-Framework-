@@ -33,6 +33,13 @@ Deep U-Net (5-level / 9-layer, Full-Factorial DOE)
 - Runner: `src/train_deep_unet_snippet.py`  
 - Config:`configs/deep_unet_snippet.yaml`
 
+# Human-Machine concordance (Phase -III)
+4-Individual human raters Vs Model B*
+
+
+# Hybrid model development 
+Above optimization strategy was further extended to develope a hybrid model (Model HB*) and evaluated its cross-species and cross-condition generalizability using rodent stroke and human meningioma MRI datasets. 
+
 Note: Full implementations (data pipeline, complete training loops, augmentation policy, metrics, callbacks incl. ECE, and evaluation) are withheld and available upon request under the Custom Research License.
 
 # References
