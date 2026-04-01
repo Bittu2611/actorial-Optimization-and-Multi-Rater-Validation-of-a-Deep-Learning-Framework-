@@ -83,8 +83,7 @@ Noise Robust Loss. https://doi.org/10.1007/978-3-031-37742-6_47
 35
 - Hao, R., Namdar, K., Liu, L., Haider, M.A., Khalvati, F., 2021. A Comprehensive Study of Data
 Augmentation Strategies for Prostate Cancer Detection in Diffusion-Weighted MRI Using
-Convolutional Neural Networks. J. Digit. Imaging 34, 862–876.
-https://doi.org/10.1007/s10278-021-00478-7
+Convolutional Neural Networks. J. Digit. Imaging 34, 862–876. https://doi.org/10.1007/s10278-021-00478-7
 - Huang, Y., Leotta, N.J., Hirsch, L., Gullo, R. Lo, Hughes, M., Reiner, J., Saphier, N.B., Myers,
 K.S., Panigrahi, B., Ambinder, E., Di Carlo, P., Grimm, L.J., Lowell, D., Yoon, S., Ghate,
 S. V., Parra, L.C., Sutton, E.J., 2025. Cross-site Validation of AI Segmentation and
