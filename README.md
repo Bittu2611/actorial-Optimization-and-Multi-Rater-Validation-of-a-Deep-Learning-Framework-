@@ -118,8 +118,7 @@ Morais, A., Imai, T., Qin, T., Ayata, C., Boisserand, L.S.B., Herman, A.L., Beat
 Velazquez, S.E., Diaz-Perez, S., Sanganahalli, B.G., Mihailovic, J.M., Hyder, F., Sansing,
 L.H., Koehler, R.C., Lannon, S., Shi, Y., Karuppagounder, S.S., Bibic, A., Akhter, K.,
 Aronowski, J., McCullough, L.D., Chauhan, A., Goh, A., 2022. The Stroke Preclinical
-Assessment Network: Rationale, Design, Feasibility, and Stage 1 Results. Stroke 53, 1802–
-1812. https://doi.org/10.1161/STROKEAHA.121.038047
+Assessment Network: Rationale, Design, Feasibility, and Stage 1 Results. Stroke 53, 1802–1812. https://doi.org/10.1161/STROKEAHA.121.038047
 - Mahajan, K.R., Ontaneda, D., 2017. The Role of Advanced Magnetic Resonance Imaging
 Techniques in Multiple Sclerosis Clinical Trials. Neurotherapeutics.
 https://doi.org/10.1007/s13311-017-0561-8
