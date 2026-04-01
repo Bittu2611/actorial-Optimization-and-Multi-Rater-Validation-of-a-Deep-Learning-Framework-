@@ -1,4 +1,4 @@
-## actorial Optimization and Multi-Rater Validation of a Deep Learning Framework for Brain Lesion Segmentation in Translational Research  ​
+## Factorial Optimization and Multi-Rater Validation of a Deep Learning Framework for Brain Lesion Segmentation in Translational Research  ​
 
 Public Snippets Only. This repository intentionally publishes selected fragments (model skeletons and minimal training interfaces) for U-Net, Deep U-Net, RA-UNet, and ResNet-50–based fine-tuning  to support peer review and reproducibility claims.  
 
